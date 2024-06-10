@@ -17,10 +17,10 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Go 1.x.y
+      - name: Set up Go
         uses: actions/setup-go@v5
         with:
-          go-version-file: ./go.mod
+          go-version: 1.21.10
 
       - name: Set variables
         run: |
