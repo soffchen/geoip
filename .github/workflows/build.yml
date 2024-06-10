@@ -20,7 +20,7 @@ jobs:
       - name: Set up Go 1.x.y
         uses: actions/setup-go@v5
         with:
-          go-version: 1.21.10
+          go-version-file: ./go.mod
 
       - name: Set variables
         run: |
